@@ -1,4 +1,8 @@
+
 public class ApiController {
-    @RestController
-    
+ @GetMapping("/welcome")  
+public String Welcome()
+{
+    return "Welcome String Boot!";
+}
 }
